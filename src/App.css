@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.app-size{
+    max-width:99%;
+    padding:20px;
+    background-color:rgba(60, 190, 99, 0.479);
+}
+.layout{
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(24, 97, 97, 0.623);
+    border-radius:10px;
+   padding:0.2em;
+}
+.layout-li{
+    font-size:1.2rem;
+    margin:1px;
+    width:12em;
+    padding:0.4em;
+    background-color:rgba(250, 247, 247, 0.733);
+    max-width:100px;
+    text-align:center;
+    box-shadow: 0px 2px 4px 8px rgba(214, 95, 95, 0.24);
+    text-decoration:none;
+    border-radius:10px;
+    transition:all 0.5s ease-in-out;
+}
+.layout-li:hover{
+    background-color: rgb(26, 44, 44);
+    color:antiquewhite
+}
+
+.d-img-home{
+    background-image:url('/images/winter.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:75vh;
+    margin-top:15px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    place-content: center;
+    text-shadow:0px 2px 4px  rgb(216, 13, 13);
+}
+.o-flow{
+    position:relative;
+    margin:0 40px;
+    text-align:left;
+    color:rgb(247, 246, 246);
+    -webkit-text-stroke:1px rgba(82, 77, 77, 0.267);
+}
+.home-heading{
+    font-size:2.2rem;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    line-height:35px;
+}
+.home-p{
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+}
+.home-btn{
+    background-color:yellowgreen;
+    padding:5px;
+    width:85%;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bolder;
+    color:black;
+    cursor:pointer;
+}
+.home-color{
+    background-color:rgba(22, 21, 21, 0.918);
+    color:white;
+    margin:0px;
+    padding:10px;
+    text-align: center;
+    border-radius:10px;
+}
+/*about*/
+.about-img{
+    margin-top:5px;
+    width:100%;
+    height:38vh;
+    border-radius: 10px;
+}
+.about-h2{
+    font-weight:bolder;
+    font-size:2rem;
+    margin:1px 5px;
+}
+.about-p1, .about-p2{
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    font-weight:550;
+    display:none;
+}
+.about-y{
+    background: yellow;
+    height:160px;
+    border-radius:10px;
+    padding:10px 20px;
+}
+.about-b{
+    font-size:1.4rem;
+    letter-spacing: 1px;
+}
+.about-c{
+    border:none;
+    padding:10px;
+    font-size:1rem;
+    font-weight:bold;
+    background-color: black;
+    color:aliceblue;
+    cursor: pointer;
+}
+.btn{
+    width:100px;
+}
+.below-me{
+    display:inline-flex;
+    flex-direction:column;
+    position:absolute;
+}
+/*jsdjd*/
+.type-h{
+    width:100px;
+    background-color: antiquewhite;
+    padding:10px;
+    text-align: center;
+}
+.type-h:hover{
+    background-color: rgb(212, 47, 149);
+}
+.type-h1{
+    background-color:red;
+    margin:1px;
+    cursor:pointer;
+}
+.type-h1:hover{
+    background-color: aqua;
+}
+.type-h1:active{
+    box-shadow: 0 2px 4px 8px rgb(25, 182, 51);
+}
+.van-d{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content: space-around;
+}
+.van{
+    background-color:rgba(255, 238, 0, 0.438);
+    margin:5px;
+}
+.van-img{
+    width:185px;
+    height:150px;
+}
+.van-img-i{
+   width:100%;
+    height:50vw;
+}
+.van-img:hover{
+    scale: 1.05;
+}
+.van-p, .van-back{
+    margin:0;
+    padding-left:10px;
+    background-color:aqua;
+}
+.van > a{
+    text-decoration: none;
+}
+.pay{
+   display:inline-block
+}
+.pay-btn{
+    margin:10px;
+    float:right;
+    padding:10px;
+    background-color: greenyellow;
+    border:none;
+    cursor:pointer;
+    font-family:cursive;
+    font-weight:bolder;
+    font-size:1.1rem;
+    border-radius:10px;
+}
+.pay-btn:hover{
+    background-color: azure;
+}
